@@ -17,4 +17,16 @@ $(document).ready(function(){
             $('.sign .sign_in a').removeClass("fixed")
         }
     })
+
+    const slider1 = $(".slider").bxSlider({
+        controls:false,
+        auto:true
+    });
+    $(".nextbtn").click(function(){
+        slider1.goToNextSlide();
+    });
+    $(".prevbtn").click(function(){
+        slider1.goToPrevSlide();
+    });
+
 })
