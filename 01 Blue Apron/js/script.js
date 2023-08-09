@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $(window).scroll(function(){
         let scrollY = $(window).scrollTop();
         if(scrollY > 500){
@@ -16,7 +17,7 @@ $(document).ready(function(){
         }else{
             $('.sign .sign_in a').removeClass("fixed")
         }
-    })
+    });
 
     const slider1 = $(".slider").bxSlider({
         controls:false,
