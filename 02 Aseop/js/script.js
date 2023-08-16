@@ -25,4 +25,11 @@ $(function(){
             }
         }
     })
+
+    const slider = $(".slider").bxSlider({
+        controls:false,
+        auto:true,
+        pager:false
+    });
+
 })
