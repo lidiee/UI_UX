@@ -1,1 +1,58 @@
 @charset "utf-8";
+
+body{
+    font-family: 'Hahmlet', serif;
+}
+
+.container{
+    width: 1200px;margin: 0 auto;
+    color: #FFAE00;
+}
+
+.download{
+    width: 800px;margin: 0 auto;
+}
+.download p{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 8.68px;
+}
+
+.down_btn{
+    margin: 40px 28px 0 28px;
+    width: 337px; height: 34px;
+    background: #FFAE00;
+    float: left;
+    position: relative;
+}
+.down_btn:hover{
+    background: white;
+    cursor: pointer;
+}
+
+.down_btn .left{
+    height: 34px;
+}
+.down_btn .right{
+    height: 34px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.down_info{
+    width: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3px;
+}
+.down_info img{
+    margin-right: 10px;
+    height: 25px;
+}
+.down_info h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #210002;
+}
