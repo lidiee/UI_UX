@@ -56,3 +56,15 @@ body{
     letter-spacing: 2px;
     color: #210002;
 }
+
+.content2{
+    /* position: relative; */
+    width: 945px;
+    height: 530px;
+}
+iframe{
+    /* position: absolute; */
+    margin-top: 95px;
+    margin-left: 127.5px;
+    top: 95px;
+}
