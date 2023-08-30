@@ -106,8 +106,9 @@ body{background: #FFFEF2;}
 }
 .section.page4 .sliderwrap{
     position: absolute;
-    top: 50px;right: 0;
-    width: 900px;
+    top: 50%;right: 0;
+    transform: translateY(-50%);
+    width: 45%;
 }
 
 
