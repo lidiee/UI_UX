@@ -66,5 +66,15 @@ iframe{
     /* position: absolute; */
     margin-top: 95px;
     margin-left: 127.5px;
+    margin-bottom: 130px;
     top: 95px;
+}
+.content3{
+    width: 800px;
+    margin: auto;
+    margin-top: 330px;
+}
+.content3 .text_left{
+    font-weight: bold;
+    font-size: 28px;
 }
