@@ -78,3 +78,7 @@ iframe{
     font-weight: bold;
     font-size: 28px;
 }
+.screen, .faq{
+    width: 337px;height: 27px;
+    background: #973600;
+}
