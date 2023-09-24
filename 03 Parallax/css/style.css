@@ -78,7 +78,42 @@ iframe{
     font-weight: bold;
     font-size: 28px;
 }
+.text{
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 35px;
+}
+.text_left, .text_right{
+    width: 350px;
+}
+.content3_btn{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
 .screen, .faq{
     width: 337px;height: 27px;
     background: #973600;
+    color: #210002;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.screen .left, .faq .left{
+    height: 27px;
+    position: absolute;
+}
+.screen .right, .faq .right{
+    height: 27px;
+    position: absolute;
+    right: 0;
+}
+.screen:hover, .faq:hover{
+    background: #FFAE00;
+    cursor: pointer;
 }
