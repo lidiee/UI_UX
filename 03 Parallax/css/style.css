@@ -103,6 +103,7 @@ iframe{
     font-size: 16px;
     text-align: center;
     letter-spacing: 4px;
+    margin-bottom: 80px;
 }
 .screen .left, .faq .left{
     height: 27px;
@@ -118,13 +119,14 @@ iframe{
     cursor: pointer;
 }
 
-.images{
-    margin-top: 80px;
-    width: 1000px;
+.content_box{
+    margin: auto;
     display: flex;
-    justify-content: space-between
+    align-items: center;
+    justify-content: space-between;
 }
 
 .images img{
     width: 444px;
+    margin-right: 52px;
 }
