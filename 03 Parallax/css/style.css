@@ -4,6 +4,12 @@ body{
     font-family: 'Hahmlet', serif;
 }
 
+.header_top{
+    height: 36px;
+    background: #210002;
+    color: #FFAE00;
+    position: fixed;
+}
 .container{
     width: 1200px;margin: 0 auto;
     color: #FFAE00;
