@@ -9,6 +9,10 @@ body{
     background: #210002;
     color: #FFAE00;
     position: fixed;
+    z-index: 1;
+}
+.header_top h1{
+    text-indent: -9999px;
 }
 .container{
     width: 1200px;margin: 0 auto;
