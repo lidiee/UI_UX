@@ -1,1 +1,99 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+body{
+    font-family: 'Pretendard-Regular';
+}
 
+.header_wrap{
+    width: 100%;
+    background: #000;
+}
+.header_top{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_left{
+    display: flex;
+}
+.logo{
+    margin-right: 16px;
+}
+.logo a{
+    width: 50px;
+    height: 35px;
+    display: block;
+    background-image: url(../images/logo_2.png);
+    text-indent: -9999px;
+}
+.search{
+    position: relative;
+}
+.searchinp {
+    width: 290px;
+    height: 35px;
+    border-radius: 10px;
+    text-indent: 15px;
+    border: 0 none;
+    background: #363636;
+    color: #cbcbcb;
+}
+.searchinp:focus {
+    outline: none !important;
+    border-color: #ffd665;
+    box-shadow: 0 0 3px #ffd665;
+}
+.search_btn {
+    position: absolute;
+    top: 5.5px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    border: 0 none;
+    cursor: pointer;
+    background: #363636;
+    background-image: url(../images/search-o.png);
+}
+.search_btn:hover {
+    background-image: url(../images/search.png);
+}
+
+
+.gnb li{
+    float: left;
+    margin-left: 10px;
+}
+.noti{
+    background-image: url(../images/alarm-o.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.noti:hover{
+    background-image: url(../images/alarm.png);
+}
+.mypage{
+    background-image: url(../images/mypage-o.png);
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.mypage:hover{
+    background-image: url(../images/mypage.png);
+}
+.sign{
+    color: #cbcbcb;
+    cursor: pointer;
+}
+.sign:hover{
+    color: #ffd665;
+}
