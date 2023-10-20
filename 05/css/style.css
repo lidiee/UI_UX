@@ -99,3 +99,35 @@ body{
 .sign:hover{
     color: #ffd665;
 }
+
+.header_tab{
+    width: 100%;
+    background: #000;
+}
+.tab_box{
+    width: 1200px;
+    height: 42px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    float: left;
+    margin-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.menu li a{
+    color: #cbcbcb;
+}
+.menu li a:hover{
+    color: white;
+}
+.bar{
+    width: 34px;height: 2px;
+    background-color: white;
+    position: relative;
+    transition: 300ms;
+}
