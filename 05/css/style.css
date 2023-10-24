@@ -131,3 +131,14 @@ body{
     position: relative;
     transition: 300ms;
 }
+.tab_btn{
+    cursor: pointer;
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    background: #ffd86a;
+}
+.tab_btn:hover{
+    background: #fff;
+}
