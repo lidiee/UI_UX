@@ -186,6 +186,35 @@ body{
     display: block;
 }
 
+.slider_wrap{
+    height: 480px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slider_wrap .prevbtn{
+    position: absolute;top: 50%;transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.slider_wrap .slide_1{
+    background-image: url(../images/heroside_1.png);
+}
+.slider_wrap .slide_2{
+    background-image: url(../images/heroside_image1.png);
+}
+.slider_wrap .slide_3{
+    background-image: url(../images/heroside_3.png);
+}
+.slider_wrap .slide_4{
+    background-image: url(../images/heroside_4.png);
+}
+.slider_wrap .slide_5{
+    background-image: url(../images/heroside_5.png);
+}
+
 .drink_icon {
     width: 32px;
     height: 32px;
