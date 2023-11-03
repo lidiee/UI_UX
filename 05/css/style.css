@@ -255,10 +255,16 @@ body{
 .slider h1{
     font-size: 52px;
     line-height: 72px;
-    text-align: center;
+    text-align: left;
     position: absolute;
-    top: 50%;left: 50%;
-    transform: translate(-50%,-50%);
+    margin-bottom: 20px;
+    font-size: 52px;
+    line-height: 72px;
+    letter-spacing: -0.06em;
+}
+.slider p{
+    font-size: 16px;
+    line-height: 26px;  
 }
 
 .drink_icon {
