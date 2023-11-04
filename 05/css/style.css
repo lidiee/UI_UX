@@ -210,61 +210,99 @@ body{
 
 .slider_wrap{
     position: relative;
+    margin-bottom: 60px;
 }
 .slider_wrap li{
     height: 480px;
 }
 .slider_wrap .prevbtn{
-    position: absolute;top: 50%;transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
     cursor: pointer;
 }
 .slider_wrap .nextbtn{
     position: absolute; top: 50%;
     transform: translateY(-50%);
     transform: scaleX(-1);
-    right: 0;
+    right: 10%;
     cursor: pointer;
 }
-.slider_wrap .slide_1{
+.slide_1{
     background: #ff9a70;
     background-repeat: no-repeat;
-    background-image: url(../images/heroside_1.png);
 }
-.slider_wrap .slide_2{
+.heroside_1{
+    background-image: url(../images/heroside_1.png);
+    width: 579px;
+    height: 357px;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+.slide_2{
     background: #ffd86a;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(../images/heroside_image1.png);
 }
-.slider_wrap .slide_3{
+.slide_3{
     background: #e7f56d;
     background-repeat: no-repeat;
-    background-image: url(../images/heroside_3.png);
 }
-.slider_wrap .slide_4{
+.heroside_3{
+    background-image: url(../images/heroside_3.png);
+    width: 620px;
+    height: 346px;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+
+}
+.slide_4{
     background: #b591fb;
     background-repeat: no-repeat;
-    background-image: url(../images/heroside_4.png);
 }
-.slider_wrap .slide_5{
+.heroside_4{
+    background-image: url(../images/heroside_4.png);
+    width: 527px;
+    height: 342px;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+.slide_5{
     background: #62bffe;
     background-repeat: no-repeat;
+}
+.heroside_5{
     background-image: url(../images/heroside_5.png);
+    width: 451px;
+    height: 367px;
+    position: absolute;
+    top: 50px;
+    right: 15%;
 }
 
-.slider h1{
+.slide_text h1{
     font-size: 52px;
     line-height: 72px;
-    text-align: left;
     position: absolute;
+    left: 15%;
+    top: 130px;
     margin-bottom: 20px;
     font-size: 52px;
     line-height: 72px;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.03em;
 }
-.slider p{
+.slide_text p{
+    position: absolute;
+    left: 15.4%;
+    top: 300px;
     font-size: 16px;
-    line-height: 26px;  
+    line-height: 26px;
+    bottom: 0;
 }
 
 .drink_icon {
