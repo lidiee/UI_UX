@@ -229,6 +229,9 @@ body{
     right: 10%;
     cursor: pointer;
 }
+.slider_wrap .prevbtn:hover, .slider_wrap .nextbtn:hover{
+    background-image: url(../images/slider_arrow_hover.png);
+}
 .slide_1{
     background: #ff9a70;
     background-repeat: no-repeat;
@@ -284,7 +287,11 @@ body{
     top: 50px;
     right: 15%;
 }
-
+.slide_2 .slide_text h1{
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .slide_text h1{
     font-size: 52px;
     line-height: 72px;
