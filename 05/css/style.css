@@ -193,6 +193,7 @@ body{
     border: 0 none;
     margin-bottom: 0;
 }
+
 .bx-wrapper .bx-pager{
     bottom: 35px;
 }
@@ -291,6 +292,53 @@ body{
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
+}
+.slide_2 .button{
+    width: 84px;
+    height: 32px;
+    background: #000;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
+}
+.slide_5 .ranking_btn{
+    border: 1px solid #000;
+    width: 186px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: bold;
+    position: absolute;
+    left: 15%;
+    top: 63%;
+}
+.slide_5 .ranking_btn:hover{
+    background: #000;
+    color: white;
+}
+.slide_5 .start_btn{
+    width: 186px;
+    height: 48px;
+    border-radius: 4px;
+    text-align: center;
+    background: #000;
+    color: white;
+    line-height: 48px;
+    position: absolute;
+    left: 29%;
+    top: 63%;
+}
+.slide_5 .start_btn:hover{
+    border: 1px solid #000;
+    background: transparent;
+    color: black;
 }
 .slide_text h1{
     font-size: 52px;
