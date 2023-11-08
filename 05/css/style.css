@@ -90,13 +90,13 @@ body{
 .mypage:hover{
     background-image: url(../images/mypage.png);
 }
-.sign{
+.sign a{
     color: #cbcbcb;
     cursor: pointer;
     font-size: 14px;
     line-height: 20px;
 }
-.sign:hover{
+.sign a:hover{
     color: #ffd665;
 }
 
@@ -147,9 +147,7 @@ body{
 .content {
     width: 1200px;
     margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    margin-bottom: 100px;
 }
 .content li {
     float: left;
@@ -374,4 +372,58 @@ body{
     width: 32px;
     height: 32px;
     background-image: url(../images/tip_o.png);
+}
+
+.content2{
+    width: 1000px;
+    margin: auto;
+}
+.drink_slider li{
+    float: left;
+    margin-left: 20px;
+    width: 280px;
+    height: 320px;
+    cursor: pointer;
+}
+.drink_slider li:first-child{
+    cursor: default;
+    margin-left: 0;
+}
+.drink_slider h3{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+.drink_slider p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #a0a0a0;
+}
+.drink_slider button{
+    border: none;
+    width: 130px;
+    height: 28px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+    background: transparent;
+    position: relative;
+}
+.drink_slider h5{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn_arrow{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37px;
+    height: 18px;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
 }
