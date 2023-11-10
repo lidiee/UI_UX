@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>꿀통</title>
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="sign.css">
+    <script src="../../js/script.js"></script>
+
 </head>
 <body>
-    회원가입
+    <div id="header">
+        <div class="header_wrap">
+            <div class="header_top">
+                <div class="header_left">
+                    <h1 class="logo">
+                        <a href="../../index.html">LOGO</a>
+                    </h1>
+                    <div class="search">
+                        <form action="#" method="post">
+                            <!-- <label for="search" class="searchtitle">SEARCH</label> -->
+                            <input type="text" id="search" placeholder="궁금한 자취 정보를 입력하세요." class="searchinp">
+                            <button type="button" class="search_btn"></button>
+                            <!-- <input type="submit" value="Search" class="searchbutton"> -->
+                        </form>
+                    </div>
+                </div>
+                <nav class="gnb">
+                    <ul class="clearfix">
+                        <li class="noti">알림</li>
+                        <li class="mypage">마이페이지</li>
+                        <li class="sign"><a href="signin.html">로그인 / 회원가입</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header_tab">
+            <div class="tab_box">
+                <nav class="menu clearfix">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="pages/info.html">꿀정보</a></li>
+                    <li><a href="pages/game.html">꿀잼</a></li>
+                </nav>
+                <!-- <div class="bar"></div> -->
+                <button class="tab_btn">글쓰기</button>
+            </div>
+        </div>
+    </div>
+    <div class="signup_form">
+        <h1>회원가입</h1>
+        <div class="checkbox">
+            <h3>꿀통 약관에 모두 동의합니다
+                <input type="checkbox" onclick="toggle(this)" id="check">
+                <label for="check"></label>
+            </h3>
+            <p>(필수) 만 14세 이상
+                <input type="checkbox" name="foo" id="check1" required>
+                <label for="check1"></label>
+            </p>
+            <p>(필수) 개인정보 취급 방침
+                <input type="checkbox" name="foo" id="check2" required>
+                <label for="check2"></label>
+
+            </p>
+            <p>(필수) 꿀통 이용약관
+                <input type="checkbox" name="foo" id="check3" required>
+                <label for="check3"></label>
+
+            </p>
+            <p>(선택) 광고성 정보 수신 및 마케팅 활용 동의
+                <input type="checkbox" name="foo" id="check4">
+                <label for="check4"></label>
+            </p>
+        </div>
+        <div class="btn_box">
+            <a href="signin.html"><button class="prev">이전</button></a>
+            <a href="signup_2.html"><button class="next">다음</button></a>
+        </div>
+    </div>
 </body>
 </html>
