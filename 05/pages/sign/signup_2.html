@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>꿀통</title>
+    <link rel="icon" href="../../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div id="header">
+        <div class="header_wrap">
+            <div class="header_top">
+                <div class="header_left">
+                    <h1 class="logo">
+                        <a href="../../index.html">LOGO</a>
+                    </h1>
+                    <div class="search">
+                        <form action="#" method="post">
+                            <!-- <label for="search" class="searchtitle">SEARCH</label> -->
+                            <input type="text" id="search" placeholder="궁금한 자취 정보를 입력하세요." class="searchinp">
+                            <button type="button" class="search_btn"></button>
+                            <!-- <input type="submit" value="Search" class="searchbutton"> -->
+                        </form>
+                    </div>
+                </div>
+                <nav class="gnb">
+                    <ul class="clearfix">
+                        <li class="noti">알림</li>
+                        <li class="mypage">마이페이지</li>
+                        <li class="sign"><a href="signin.html">로그인 / 회원가입</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header_tab">
+            <div class="tab_box">
+                <nav class="menu clearfix">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="pages/info.html">꿀정보</a></li>
+                    <li><a href="pages/game.html">꿀잼</a></li>
+                </nav>
+                <!-- <div class="bar"></div> -->
+                <button class="tab_btn">글쓰기</button>
+            </div>
+        </div>
+    </div>
+    <div class="signup_form_2">
+        <h1>회원가입</h1>
+        <div class="signup_id">
+            <h4>아이디</h5>
+            <input type="text" id="signup_id" placeholder="아이디를 입력해주세요." required minlength="4" maxlength="15">
+        </div>
+        <div class="signup_pw">
+            <h4>비밀번호</h4>
+            <input type="password" id="password" placeholder="비밀번호를 입력해주세요." required minlength="8" maxlength="30">
+            <p>숫자, 영문, 특수문자 조합 8자 이상</p>
+            <input type="password" id="password" placeholder="비밀번호를 재입력해주세요." required minlength="8" maxlength="30">
+        </div>
+        <div class="signup_nickname">
+            <input type="text" id="signup_nickname" placeholder="닉네임을 입력해주세요.">
+        </div>
+        <div class="signup_mail">
+            <input type="text" id="signup_mail" placeholder="이메일을 입력해주세요.">
+        </div>
+        <div class="signup_code">
+            <input type="text" id="signup_code" placeholder="인증번호를 입력해주세요.">
+        </div>
+    </div>
+</body>
+</html>
