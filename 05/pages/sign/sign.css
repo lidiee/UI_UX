@@ -1,0 +1,255 @@
+body{
+    background: #f9fafb;
+}
+.login_form, .signup_form{
+    width: 580px;
+    height: 700px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 100px;
+    position: relative;
+}
+.signup_form_2{
+    width: 580px;
+    height: 900px;
+    background: white;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    position: relative;
+}
+.login_form h1, .signup_form h1, .signup_form_2 h1{
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login_id, .signup_id{
+    position: absolute;
+    top: 150px;
+    width: 384px;
+    height: 82px
+}
+.login_id h4, .login_pw h4, .signup_id h4, .signup_pw h4{
+    font-size: 14px;
+    line-height: 20px;
+}
+.login_id input, .login_pw input, .signup_id input, .signup_pw input{
+    width: 384px;
+    height: 48px;
+    margin-top: 14px;
+    padding: 14px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+.login_id input:focus, .login_pw input:focus, .signup_id input:focus, .signup_pw input:focus{
+    outline: none !important;
+    border-color: #ffd86a;
+    /* box-shadow: 0 0 3px #ffd86a; */
+}
+.login_pw, .signup_pw{
+    position: absolute;
+    top: 250px;
+    width: 384px;
+    height: 92px;
+}
+.login_form button{
+    position: absolute;
+    top: 370px;
+    width: 384px;
+    height: 48px;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #cbcbcb;
+    color: white;
+}
+.login_form button:hover{
+    background: #ffd86a;
+    color: #000;
+}
+.signup_btn, .find{
+    font-size: 12px;
+    position: absolute;
+    top: 440px;
+    cursor: pointer;
+}
+.find{
+    right: 95px;
+}
+.social_login{
+    width: 384px;
+    height: 120px;
+    position: absolute;
+    bottom: 80px;
+}
+.kakao, .naver{
+    width: 384px;
+    height: 48px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.kakao{
+    margin-bottom: 20px;
+}
+.kakao_logo{
+    width: 32px;
+    height: 32px;
+    background-image: url(../../images/social_kakao.png);
+    background-size: contain;
+    margin-right: 14px;
+}
+.naver_logo{
+    width: 32px;
+    height: 32px;
+    background-image: url(../../images/social_naver.png);
+    background-size: contain;
+    margin-right: 14px;
+}
+
+.checkbox{
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    top: 150px;
+}
+.checkbox input{
+    display: none;
+}
+.checkbox input + label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #cbcbcb;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+.checkbox input:checked + label::after{
+    content: "";
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    background: #ffd86a;
+    background-image: url(../../images/check.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+.checkbox h3{
+    font-size: 14px;
+    width: 384px;
+    height: 48px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.checkbox p{
+    width: 384px;
+    padding: 0 20px;
+    height: 24px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_box,.sign_btn_box{
+    width: 384px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn_box{
+    position: absolute;
+    top: 530px;
+}
+.prev, .next{
+    width: 186px;
+    height: 48px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prev{
+    background: white;
+    border: 1px solid #cbcbcb;
+}
+.next{
+    background: #cbcbcb;
+    border: none;
+}
+.prev:hover{
+    background: #000;
+    color: white;
+    border: 0;
+}
+.next:hover{
+    background: #ffd86a;
+}
+.signup_pw p{
+    font-size: 11px;
+    margin-top: 10px;
+    color: #585858;
+}
+.signup_nickname, .signup_mail, .signup_code{
+    width: 384px;
+    height: 78px;
+    font-size: 14px;
+}
+.signup_nickname h4, .signup_mail h4, .signup_code h4{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+.signup_nickname input, .signup_mail input, .signup_code input{
+    width: 274px;
+    height: 48px;
+    padding: 14px;
+    color: #a0a0a0;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+.signup_nickname button, .signup_mail button, .signup_code button{
+    width: 100px;
+    height: 48px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+}
+.signup_nickname button:hover, .signup_mail button:hover, .signup_code button:hover{
+    background: #000;
+    color: white;
+    border: 0;
+}
+.signup_nickname{
+    position: absolute;
+    top: 442px;
+}
+.signup_mail{
+    position: absolute;
+    top: 540px;
+}
+.signup_code{
+    position: absolute;
+    bottom: 168px;
+}
+.sign_btn_box{
+    position: absolute;
+    bottom: 80px;
+}
