@@ -378,30 +378,30 @@ body{
     width: 1000px;
     margin: auto;
 }
-.drink_slider li{
+.drink_slider li, .food_slider li, .recycle_slider li{
     float: left;
     margin-left: 20px;
     width: 280px;
     height: 320px;
     cursor: pointer;
 }
-.drink_slider li:first-child{
+.drink_slider li:first-child, .food_slider li:first-child, .recycle_slider li:first-child{
     cursor: default;
     margin-left: 0;
 }
-.drink_slider h3{
+.drink_slider h3, .food_slider h3, .recycle_slider h3{
     font-size: 24px;
     line-height: 36px;
     margin-top: 26px;
     margin-bottom: 20px;
 }
-.drink_slider p{
+.drink_slider p, .food_slider p, .recycle_slider p{
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 30px;
     color: #a0a0a0;
 }
-.drink_slider button{
+.drink_slider button, .food_slider button, .recycle_slider button{
     border: none;
     width: 130px;
     height: 28px;
@@ -411,7 +411,7 @@ body{
     background: transparent;
     position: relative;
 }
-.drink_slider h5{
+.drink_slider h5, .food_slider h5, .recycle_slider h5{
     position: absolute;
     left: 0;
     top: 50%;
