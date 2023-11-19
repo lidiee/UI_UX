@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>꿀통</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="post.css">
+    <script src="../js/ckeditor.js"></script>
+    
 </head>
 <body>
-    글쓰기
+    <div id="header">
+        <div class="header_wrap">
+            <div class="header_top">
+                <div class="header_left">
+                    <h1 class="logo">
+                        <a href="#!">LOGO</a>
+                    </h1>
+                </div>
+                <nav class="post_gnb">
+                    <ul class="clearfix">
+                        <li>
+                            <select name="select" id="select">
+                                <option value="0">게시판 선택</option>
+                                <option value="1">혼술</option>
+                                <option value="0">혼밥</option>
+                                <option value="0">리사이꿀</option>
+                            </select>
+                        </li>
+                        <li class="save_post"><input type="submit">저장</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <input id="title" placeholder="제목을 입력해주세요."></input>
+        <textarea id="editor">
+            <div class="ck-reset ck-editor">
+                <div class="ck-blurred ck-editor__editable ck-editor__editable_inline"></div>
+            </div>
+        </textarea>
+    </div>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#editor' ),{
+                placeholder : '내용을 입력해주세요.'
+            } )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 </body>
 </html>
