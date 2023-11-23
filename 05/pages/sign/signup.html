@@ -54,25 +54,25 @@
         <h1>회원가입</h1>
         <div class="checkbox">
             <h3>꿀통 약관에 모두 동의합니다
-                <input type="checkbox" onclick="toggle(this)" id="checkAll">
+                <input type="checkbox" onclick="toggle(this)" id="check">
                 <label for="check"></label>
             </h3>
             <p>(필수) 만 14세 이상
-                <input type="checkbox" name="foo" id="check1" required>
+                <input type="checkbox" name="foo" onclick="checkAll(this)" id="check1" required>
                 <label for="check1"></label>
             </p>
             <p>(필수) 개인정보 취급 방침
-                <input type="checkbox" name="foo" id="check2" required>
+                <input type="checkbox" name="foo" onclick="checkAll(this)" id="check2" required>
                 <label for="check2"></label>
 
             </p>
             <p>(필수) 꿀통 이용약관
-                <input type="checkbox" name="foo" id="check3" required>
+                <input type="checkbox" name="foo" onclick="checkAll(this)" id="check3" required>
                 <label for="check3"></label>
 
             </p>
             <p>(선택) 광고성 정보 수신 및 마케팅 활용 동의
-                <input type="checkbox" name="foo" id="check4">
+                <input type="checkbox" name="foo" onclick="checkAll(this)" id="check4">
                 <label for="check4"></label>
             </p>
         </div>
@@ -81,5 +81,6 @@
             <a href="signup_2.html"><button class="next">다음</button></a>
         </div>
     </div>
+    
 </body>
 </html>
